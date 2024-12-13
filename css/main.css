@@ -1404,7 +1404,9 @@ ul {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 40px;
 }
-.footer .box h3 {
+.footer .box img {
+  width: 200px;
+  height: 100px;
   color: white;
   font-size: 50px;
   margin: 0 0 20px;
@@ -1498,9 +1500,8 @@ ul {
   display: block;
 }
 .footer .footer-gallery img {
-  width: 78px;
-  border: 3px solid white;
-  margin: 2px;
+  width: 150px;
+  height: 150px;
 }
 .footer .copyright {
   padding: 25px 0;
