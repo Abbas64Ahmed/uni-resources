@@ -18,8 +18,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* font-family: "Cairo", sans-serif; */
-  font-family: sans-serif;
+  font-family: "Cairo", sans-serif;
+  /* font-family: sans-serif; */
 }
 a {
   text-decoration: none;
@@ -124,6 +124,7 @@ ul {
   left: 0;
 }
 /* End Global Rules */
+
 /* Start Header */
 .header {
   background-color: white;
@@ -201,6 +202,7 @@ ul {
   left: 0;
 }
 /* End Header */
+
 /* Start Landing */
 .landing {
   position: relative;
@@ -213,10 +215,6 @@ ul {
   width: 100%;
   height: 100%;
   background-color: #ececec;
-  /* background-image: url("../imgs/landing-image-background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
   z-index: -1;
   transform: skewY(-6deg);
   transform-origin: top left;
@@ -283,10 +281,15 @@ ul {
 .landing .go-down {
   color: var(--main-color);
   position: absolute;
-  bottom: 30px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
   transition: var(--main-transition);
+}
+@media (max-width: 768px) {
+  .landing .go-down {
+    bottom: 90px;
+  }
 }
 .landing .go-down:hover {
   color: var(--main-color-alt);
@@ -358,7 +361,6 @@ ul {
   padding-top: var(--main-padding-top);
   padding-bottom: var(--main-padding-bottom);
   position: relative;
-  /* background-color: var(--section-background); */
   background-color: white;
 }
 .gallery .container {
@@ -384,13 +386,9 @@ ul {
 }
 .gallery .box {
   padding: 10px;
-  /* background-color: rgb(137, 223, 235); */
-  /* background-color: #c0c0c0; */
-  /* box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%); */
 }
 .gallery .box .image {
   position: relative;
-  /* overflow: hidden; */
   height: 100%;
   width: 100%;
 }
@@ -595,11 +593,6 @@ ul {
   background-color: var(--section-background);
 }
 
-/* .services .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-  gap: 30px;
-} */
 @media (max-width: 767px) {
   .services .container {
     display: grid;
@@ -684,35 +677,6 @@ ul {
   bottom: -75%;
   transition: 0.3s;
 }
-/* .services .box:hover .info {
-  bottom: -75%;
-} */
-/* .services .box .info::before {
-  content: "0" counter(services);
-  position: absolute;
-  background-color: var(--main-color);
-  color: white;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 80px;
-  font-size: 30px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 15px;
-} */
-/* .services .box .info::after {
-  content: "";
-  position: absolute;
-  background-color: #d5d5d5;
-  top: 0;
-  left: 80px;
-  width: 50px;
-  height: calc(100% + 0.4px);
-  transform: skewX(-30deg);
-} */
 .services .box .info a {
   color: var(--main-color);
   position: absolute;
@@ -721,10 +685,10 @@ ul {
   transform: translate(-50%, -50%);
   z-index: 4;
   color: white;
-  /* font-weight: bolder; */
   font-size: 12px;
 }
 /* End Services */
+
 /* start how it works */
 .work {
   padding-top: var(--main-padding-top);
@@ -739,6 +703,8 @@ ul {
 }
 .work .container img {
   width: 40%;
+  position: relative;
+  animation: up-and-down 5s linear infinite;
 }
 .work .container .text {
   width: 40%;
@@ -779,53 +745,6 @@ ul {
     max-width: 100%;
   }
 }
-/* .work .boxs .box {
-  background-color: #f6f5f5;
-  margin-bottom: 20px;
-  border: 2px solid white;
-  border-radius: 4px;
-  padding: 30px;
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  position: relative;
-  z-index: 1;
-}
-@media (max-width: 992px) {
-  .work .container .boxs .box {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-.work .boxs .box::before {
-  content: "";
-  position: absolute;
-  background-color: var(--section-background);
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  transform: translate(-50%, -50%);
-  transition: 0.7s;
-  z-index: -1;
-}
-.work .boxs .box:hover::before {
-  width: 100%;
-  height: 100%;
-}
-.work .boxs .box img {
-  width: 70px;
-}
-.work .boxs .box .info h2 {
-  margin: 0;
-  font-size: 22px;
-}
-.work .boxs .box .info p {
-  margin: 20px 0;
-  line-height: 1.7;
-  color: #777;
-} */
-/* end how it works */
 /* Start Footer */
 .footer {
   background-color: #616161;
