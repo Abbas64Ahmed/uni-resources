@@ -206,8 +206,20 @@ ul {
 /* Start Landing */
 .landing {
   position: relative;
+  background-image: url("../imgs/landsceb\ background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.landing::before {
+.landing::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* .landing::before {
   content: "";
   position: absolute;
   left: 0;
@@ -218,16 +230,20 @@ ul {
   z-index: -1;
   transform: skewY(-6deg);
   transform-origin: top left;
-}
+} */
 
 .landing .container {
+  position: relative;
   min-height: calc(100vh - 72px);
   display: flex;
   align-items: center;
   padding-bottom: 120px;
+  z-index: 900;
 }
 .landing .text {
   flex: 1;
+  position: relative;
+  z-index: 999;
 }
 @media (max-width: 991px) {
   .landing .text {
@@ -240,6 +256,7 @@ ul {
   letter-spacing: -2px;
   margin-bottom: 30px;
   margin-top: 30px;
+  color: white;
 }
 @media (max-width: 767px) {
   .landing .text h1 {
@@ -250,7 +267,8 @@ ul {
   font-size: 20px;
   line-height: 1.7;
   margin: 5px 0 0;
-  color: #1842ca;
+  /* color: #1842ca; */
+  color: white;
   max-width: 500px;
   margin-bottom: 20px;
 }
@@ -272,6 +290,7 @@ ul {
   position: relative;
   width: 500px;
   animation: up-and-down 5s linear infinite;
+  z-index: 999;
 }
 @media (max-width: 991px) {
   .landing .image {
@@ -279,12 +298,13 @@ ul {
   }
 }
 .landing .go-down {
-  color: var(--main-color);
+  color: var(--main-color-alt);
   position: absolute;
   bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
   transition: var(--main-transition);
+  z-index: 999;
 }
 @media (max-width: 768px) {
   .landing .go-down {
