@@ -727,9 +727,9 @@ ul {
   mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0));
 }
 
-@keyframes scrollLeft {
+@keyframes scrollRight {
   to {
-    left: -200px;
+    right: -200px;
   }
 }
 
@@ -738,8 +738,8 @@ ul {
   height: 100px;
   border-radius: 6px;
   position: absolute;
-  left: max(calc(200px * 25), 100%);
-  animation-name: scrollLeft;
+  right: max(calc(200px * 25), 100%);
+  animation-name: scrollRight;
   animation-duration: 90s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -749,89 +749,86 @@ ul {
   height: 100px;
 }
 
-.team {
-  .item1 {
-    animation-delay: calc(90s / 25 * (25 - 1) * -1);
-  }
+.team .item1 {
+  animation-delay: calc(90s / 25 * (25 - 1) * -1);
+}
 
-  .item2 {
-    animation-delay: calc(90s / 25 * (25 - 2) * -1);
-  }
+.team .item2 {
+  animation-delay: calc(90s / 25 * (25 - 2) * -1);
+}
 
-  .item3 {
-    animation-delay: calc(90s / 25 * (25 - 3) * -1);
-  }
+.team .item3 {
+  animation-delay: calc(90s / 25 * (25 - 3) * -1);
+}
 
-  .item4 {
-    animation-delay: calc(90s / 25 * (25 - 4) * -1);
-  }
+.team .item4 {
+  animation-delay: calc(90s / 25 * (25 - 4) * -1);
+}
 
-  .item5 {
-    animation-delay: calc(90s / 25 * (25 - 5) * -1);
-  }
+.team .item5 {
+  animation-delay: calc(90s / 25 * (25 - 5) * -1);
+}
 
-  .item6 {
-    animation-delay: calc(90s / 25 * (25 - 6) * -1);
-  }
+.team .item6 {
+  animation-delay: calc(90s / 25 * (25 - 6) * -1);
+}
 
-  .item7 {
-    animation-delay: calc(90s / 25 * (25 - 7) * -1);
-  }
-
-  .item8 {
-    animation-delay: calc(90s / 25 * (25 - 8) * -1);
-  }
-  .item9 {
-    animation-delay: calc(90s / 25 * (25 - 9) * -1);
-  }
-  .item10 {
-    animation-delay: calc(90s / 25 * (25 - 10) * -1);
-  }
-  .item11 {
-    animation-delay: calc(90s / 25 * (25 - 11) * -1);
-  }
-  .item12 {
-    animation-delay: calc(90s / 25 * (25 - 12) * -1);
-  }
-  .item13 {
-    animation-delay: calc(90s / 25 * (25 - 13) * -1);
-  }
-  .item14 {
-    animation-delay: calc(90s / 25 * (25 - 14) * -1);
-  }
-  .item15 {
-    animation-delay: calc(90s / 25 * (25 - 15) * -1);
-  }
-  .item16 {
-    animation-delay: calc(90s / 25 * (25 - 16) * -1);
-  }
-  .item17 {
-    animation-delay: calc(90s / 25 * (25 - 17) * -1);
-  }
-  .item18 {
-    animation-delay: calc(90s / 25 * (25 - 18) * -1);
-  }
-  .item19 {
-    animation-delay: calc(90s / 25 * (25 - 19) * -1);
-  }
-  .item20 {
-    animation-delay: calc(90s / 25 * (25 - 20) * -1);
-  }
-  .item21 {
-    animation-delay: calc(90s / 25 * (25 - 21) * -1);
-  }
-  .item22 {
-    animation-delay: calc(90s / 25 * (25 - 22) * -1);
-  }
-  .item23 {
-    animation-delay: calc(90s / 25 * (25 - 23) * -1);
-  }
-  .item24 {
-    animation-delay: calc(90s / 25 * (25 - 24) * -1);
-  }
-  .item25 {
-    animation-delay: calc(90s / 25 * (25 - 25) * -1);
-  }
+.team .item7 {
+  animation-delay: calc(90s / 25 * (25 - 7) * -1);
+}
+.team .item8 {
+  animation-delay: calc(90s / 25 * (25 - 8) * -1);
+}
+.team .item9 {
+  animation-delay: calc(90s / 25 * (25 - 9) * -1);
+}
+.team .item10 {
+  animation-delay: calc(90s / 25 * (25 - 10) * -1);
+}
+.team .item11 {
+  animation-delay: calc(90s / 25 * (25 - 11) * -1);
+}
+.team .item12 {
+  animation-delay: calc(90s / 25 * (25 - 12) * -1);
+}
+.team .item13 {
+  animation-delay: calc(90s / 25 * (25 - 13) * -1);
+}
+.team .item14 {
+  animation-delay: calc(90s / 25 * (25 - 14) * -1);
+}
+.team .item15 {
+  animation-delay: calc(90s / 25 * (25 - 15) * -1);
+}
+.team .item16 {
+  animation-delay: calc(90s / 25 * (25 - 16) * -1);
+}
+.team .item17 {
+  animation-delay: calc(90s / 25 * (25 - 17) * -1);
+}
+.team .item18 {
+  animation-delay: calc(90s / 25 * (25 - 18) * -1);
+}
+.team .item19 {
+  animation-delay: calc(90s / 25 * (25 - 19) * -1);
+}
+.team .item20 {
+  animation-delay: calc(90s / 25 * (25 - 20) * -1);
+}
+.team .item21 {
+  animation-delay: calc(90s / 25 * (25 - 21) * -1);
+}
+.team .item22 {
+  animation-delay: calc(90s / 25 * (25 - 22) * -1);
+}
+.team .item23 {
+  animation-delay: calc(90s / 25 * (25 - 23) * -1);
+}
+.team .item24 {
+  animation-delay: calc(90s / 25 * (25 - 24) * -1);
+}
+.team .item25 {
+  animation-delay: calc(90s / 25 * (25 - 25) * -1);
 }
 /* End we work with */
 
