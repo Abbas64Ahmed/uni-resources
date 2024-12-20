@@ -1070,6 +1070,9 @@ ul {
 .footer .box .social .tiktok {
   background-color: #1d1d1d;
 }
+.footer .box .social .snapchat {
+  background-color: rgb(255, 255, 79);
+}
 .footer .box .text {
   line-height: 2;
   color: white;
