@@ -1,4 +1,5 @@
 /* Start Global Rules */
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -743,7 +744,7 @@ ul {
   height: 100px;
   border-radius: 6px;
   position: absolute;
-  right: max(calc(200px * 25), 100%);
+  right: max(calc(200px * 26), 100%);
   animation-name: scrollRight;
   animation-duration: 90s;
   animation-timing-function: linear;
@@ -751,7 +752,7 @@ ul {
 }
 @media (max-width: 767px) {
   .team .item {
-    right: max(calc(100px * 25), 100%);
+    right: max(calc(100px * 26), 100%);
   }
 }
 .team .item img {
@@ -760,85 +761,85 @@ ul {
 }
 
 .team .item1 {
-  animation-delay: calc(90s / 25 * (25 - 1) * -1);
+  animation-delay: calc(90s / 26 * (26 - 1) * -1);
 }
 
 .team .item2 {
-  animation-delay: calc(90s / 25 * (25 - 2) * -1);
+  animation-delay: calc(90s / 26 * (26 - 2) * -1);
 }
 
 .team .item3 {
-  animation-delay: calc(90s / 25 * (25 - 3) * -1);
+  animation-delay: calc(90s / 26 * (26 - 3) * -1);
 }
 
 .team .item4 {
-  animation-delay: calc(90s / 25 * (25 - 4) * -1);
+  animation-delay: calc(90s / 26 * (26 - 4) * -1);
 }
 
 .team .item5 {
-  animation-delay: calc(90s / 25 * (25 - 5) * -1);
+  animation-delay: calc(90s / 26 * (26 - 5) * -1);
 }
 
 .team .item6 {
-  animation-delay: calc(90s / 25 * (25 - 6) * -1);
+  animation-delay: calc(90s / 26 * (26 - 6) * -1);
 }
 
 .team .item7 {
-  animation-delay: calc(90s / 25 * (25 - 7) * -1);
+  animation-delay: calc(90s / 26 * (26 - 7) * -1);
 }
 .team .item8 {
-  animation-delay: calc(90s / 25 * (25 - 8) * -1);
+  animation-delay: calc(90s / 26 * (26 - 8) * -1);
 }
 .team .item9 {
-  animation-delay: calc(90s / 25 * (25 - 9) * -1);
+  animation-delay: calc(90s / 26 * (26 - 9) * -1);
 }
 .team .item10 {
-  animation-delay: calc(90s / 25 * (25 - 10) * -1);
+  animation-delay: calc(90s / 26 * (26 - 10) * -1);
 }
 .team .item11 {
-  animation-delay: calc(90s / 25 * (25 - 11) * -1);
+  animation-delay: calc(90s / 26 * (26 - 11) * -1);
 }
 .team .item12 {
-  animation-delay: calc(90s / 25 * (25 - 12) * -1);
+  animation-delay: calc(90s / 26 * (26 - 12) * -1);
 }
 .team .item13 {
-  animation-delay: calc(90s / 25 * (25 - 13) * -1);
+  animation-delay: calc(90s / 26 * (26 - 13) * -1);
 }
 .team .item14 {
-  animation-delay: calc(90s / 25 * (25 - 14) * -1);
+  animation-delay: calc(90s / 26 * (26 - 14) * -1);
 }
 .team .item15 {
-  animation-delay: calc(90s / 25 * (25 - 15) * -1);
+  animation-delay: calc(90s / 26 * (26 - 15) * -1);
 }
 .team .item16 {
-  animation-delay: calc(90s / 25 * (25 - 16) * -1);
+  animation-delay: calc(90s / 26 * (26 - 16) * -1);
 }
 .team .item17 {
-  animation-delay: calc(90s / 25 * (25 - 17) * -1);
+  animation-delay: calc(90s / 26 * (26 - 17) * -1);
 }
 .team .item18 {
-  animation-delay: calc(90s / 25 * (25 - 18) * -1);
+  animation-delay: calc(90s / 26 * (26 - 18) * -1);
 }
 .team .item19 {
-  animation-delay: calc(90s / 25 * (25 - 19) * -1);
+  animation-delay: calc(90s / 26 * (26 - 19) * -1);
 }
 .team .item20 {
-  animation-delay: calc(90s / 25 * (25 - 20) * -1);
+  animation-delay: calc(90s / 26 * (26 - 20) * -1);
 }
 .team .item21 {
-  animation-delay: calc(90s / 25 * (25 - 21) * -1);
+  animation-delay: calc(90s / 26 * (26 - 21) * -1);
 }
 .team .item22 {
-  animation-delay: calc(90s / 25 * (25 - 22) * -1);
+  animation-delay: calc(90s / 26 * (26 - 22) * -1);
 }
 .team .item23 {
-  animation-delay: calc(90s / 25 * (25 - 23) * -1);
+  animation-delay: calc(90s / 26 * (26 - 23) * -1);
 }
 .team .item24 {
-  animation-delay: calc(90s / 25 * (25 - 24) * -1);
+  animation-delay: calc(90s / 26 * (26 - 24) * -1);
 }
-.team .item25 {
-  animation-delay: calc(90s / 25 * (25 - 25) * -1);
+.team .item26 {
+  animation-delay: calc(90s / 26 * (26 - 26) * -1);
 }
 /* End we work with */
 
