@@ -838,6 +838,9 @@ ul {
 .team .item24 {
   animation-delay: calc(90s / 26 * (26 - 24) * -1);
 }
+.team .item25 {
+  animation-delay: calc(90s / 26 * (26 - 25) * -1);
+}
 .team .item26 {
   animation-delay: calc(90s / 26 * (26 - 26) * -1);
 }
